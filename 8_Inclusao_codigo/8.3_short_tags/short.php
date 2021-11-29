@@ -1,0 +1,5 @@
+<?
+
+echo "Estou aqui";
+
+?>
