@@ -3,14 +3,19 @@
 $str = "O rato roeu a roupa do rei de Roma";
 
 
+$contador = 0;
+
 for ($i = 0; $i < strlen($str); $i++) {
 
-    $contador = 0;
 
-    echo "$str[$i] <br>";
+
+    if ( $str[$i] === 'a') {
+        $contador++;
+    }
 
 
 }
+echo "O numero de a's na frase é de : $contador";
 
 
 ?>
